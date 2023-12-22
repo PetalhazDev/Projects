@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+
+<body>
+	<h2 style="color:green">GeeksforGeeks</h2>
+	<b>Submit form details</b>
+
+	<form id="form__submit" action="form.php" method="post">
+		<label>NAME: </label><br />
+		<input type="text" name="name" /><br />
+		<label>AGE: </label><br />
+		<input type="number" name="age" /><br />
+		<label>CITY: </label><br />
+		<input type="text" name="city" /><br /><br />
+		<a href="#" onclick="submitForm()">Submit Here</a>
+	</form>
+
+	<script>
+		function submitForm() {
+			let form = document.getElementById("form__submit");
+			form.submit();
+		}
+	</script>
+</body>
+
+</html>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<head>
+    <title>Form Submittion without using submit Button</title>
+</head>
+  
+<body>
+    <h1 style="color: green">
+        GeeksforGeeks
+    </h1>
+    <h3>
+        Form Submittion without using submit Button
+    </h3>
+    <form id="form" 
+          action="form.php" 
+          method="post">
+        <label>
+            Subscribe the GBlog to get daily update!!!
+        </label>
+        <br><br>
+        <input type="text" 
+               name="text" 
+               placeholder="Enter Mail ID" />
+        <br/>
+        <h5 onclick="submit()">
+            Click Me to  Subscribe!
+        </h5> 
+    </form>
+    <script>
+        function submit() {
+            let form = document.getElementById("form");
+            form.submit();
+            alert("Data stored in database!");
+        }
+    </script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Enter some text in the fields below, then press the "Reset form" button to reset the form.</p>
+
+<form id="myForm">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br><br>
+  <input type="button" onclick="myFunction()" value="Reset form">
+</form>
+
+<script>
+function myFunction() {
+  document.getElementById("myForm").reset();
+}
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Enter some text in the fields below, then press the "Submit form" button to submit the form.</p>
+
+<form id="myForm" action="/action_page.php">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br><br>
+  <input type="button" onclick="myFunction()" value="Submit form">
+</form>
+
+<script>
+function myFunction() {
+  document.getElementById("myForm").submit();
+}
+</script>
+
+</body>
+</html>

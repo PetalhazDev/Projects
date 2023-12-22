@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+    color: white;
+}
+
+.grid-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 20px;
+
+}
+
+.grid-item{
+    background-color: black;
+    padding: 20px;
+    margin: 10px;
+    border: 0;
+    text-align: center;
+
+}
+

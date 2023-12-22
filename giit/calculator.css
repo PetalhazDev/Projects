@@ -1,0 +1,19 @@
+form{
+    
+}
+
+*{
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 0;
+}
+
+body{
+    
+}
+
+button{
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Form Demo</title>
+    <link rel="stylesheet" href="formpractice3.css">
+</head>
+
+<h1>Business Registration Form Database</h1>
+<p class="p">&nbsp;&nbsp; Fill in your details in the form below</p>
+
+<body>
+
+    <form action="register_data.php" method="">
+        <p>
+            <label for="names">Full name</label><br>
+            <input type="text" name="full name" id="names" class="index">
+
+        </p>
+
+        <p>
+            <label for="mypass">Enter Your password</label><br>
+            <input type="password" name="my pass" id="mypass" class="index">
+        </p>
+
+        <p>
+            <label>Email Address</label><br>
+
+            <input type="email" name="email address" class="index" />
+
+        </p>
+
+        <p>
+            <label>Gender</label>
+            <br>
+            <input type="radio" name="gender" value="male" id="gender1">
+            <label>Male</label>
+            <br>
+
+            <input type="radio" name="gender" value="female" id="gender2" />
+            <label>Female</label>
+        </p>
+
+        <p>
+            <label>Cities visited</label>
+            <br>
+            <input type="checkbox" name="city1" value="kano" />
+            <label>Kano</label>
+            <br>
+            <input type="checkbox" name="city2" value="lagos" />
+            <label>lagos</label>
+            <br>
+
+            <input type="checkbox" name="city3" value="aba" />
+            <label>aba</label>
+
+        </p>
+
+        <p>
+            <label for="">Your State</label>
+            <select name="" id="">
+	<option value="">Choose State</option>
+	<option value="1">Abia</option>
+	<option value="2">Adamawa</option>
+	<option value="3">Akwa-Ibom</option>
+	<option value="4">Lagos</option>
+	</select>
+        </p>
+
+
+
+        <p>
+            <label>Upload your resume</label>
+            <input type="file" name="resume" multiple />
+
+        </p>
+
+        <p>
+
+            <label>Enter your message</label>
+            <textarea name="message" id="" rows="10" cols="60" class="index"></textarea>
+
+        </p>
+
+
+        <p>
+            <label for="fcolor">Fav-color</label><br>
+            <input type="color" name="fab-color"><br><br>
+            <label for="dbirth">Date of Birth</label>
+            <input type="date" name="date-of-birth" id="dbirth" class="index"><br><br>
+
+            <center>
+                <button type="reset" name="reset" value="reset">Reset</button>
+                <button type="submit" name="submit" value="submit">Submit</button>
+            </center>
+
+        </p>
+    </form>
+
+
+</body>
+
+</html>

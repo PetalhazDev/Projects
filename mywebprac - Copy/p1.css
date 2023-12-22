@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+ol a{
+    text-decoration: none;
+    display: block;
+    padding: 3px;
+    margin: 2px;
+    
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    border-radius: 20px;
+}
+a:hover{
+    background-color: #ddd;
+    color:#333;
+    transition-duration: 0.4s;
+}
+
+ol{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-gap: 200px;
+    
+}
+    
+
+
+.item1{ background-color: maroon;
+grid-area: menu;}
+
+.item2{ background-color: peru;
+    grid-area: menu;}
+
+.item3{ background-color: violet;
+    grid-area: menu;}
+
+.item4{ background-color: orange;
+    grid-area: bat;}
+
+.item5{ background-color: aqua;
+    grid-area: cat;}
+
+.item6{ background-color: red;
+    grid-area: dog;}
+
+.item7{ background-color: mediumorchid;
+    grid-area: box;}
+
+.item8{ background-color: brown;
+    grid-area: box;}
+
+.item9{ background-color: yellow;
+    grid-area: key;}
+
+.item10{ background-color: burlywood;
+    grid-area: foot;}
+
+.item11{background-color: pink;
+    grid-area: foot;}
+
+.item12{background-color: darkslateblue;
+    grid-area: foot;}
+
+
+.container{
+    border: 3px solid;
+    display: grid;
+    grid-template-areas: 
+    "menu menu menu"
+    "bat cat dog"
+    "box box key"
+    "foot foot foot"
+    ;
+    grid-gap: 20px;
+}
+
+.content{
+    min-width: 100px;
+    min-height: 200px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+
+}
+
+img{
+    width: 50%;
+}

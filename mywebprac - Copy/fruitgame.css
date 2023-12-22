@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: green;
+}
+
+.heading{
+    background-color: #fff;
+    height: 150px;
+    color: green;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 50px;
+}
+
+.fb{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+#btn1{
+    background-color: #fff;
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+#btn2{
+    text-align: center;
+}
+
+#btn3{
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+}
+
+
+
+
+

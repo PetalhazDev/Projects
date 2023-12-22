@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+padding-top: 50px;
+background-color: purple;}
+
+    .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    
+    }
+
+    h1{
+        text-align: center;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .btn{
+        background-color: black;
+        color: white;
+        padding: 15px;
+        margin: 5px;
+        border-radius: 50%;
+        text-transform: uppercase;
+        text-decoration: none;
+        outline: none;
+        text-align: center;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+
+    button:hover{
+        background-color: blue;
+        color: white;
+        transition: 0.2;
+    }
+
+    
+
+
+

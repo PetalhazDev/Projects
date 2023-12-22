@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 3px solid red;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+    "one one one one"
+    "for for for why"
+    "ask ask go go"
+    "ask ask come way"
+    "ask ask lot can"
+    "foot foot foot foot"
+    
+    ;
+
+    
+}
+.items{
+    min-height: 400px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.item1{
+    background-color: blue;
+    grid-area: one;
+}
+.item2{
+    background-color: violet;
+    grid-area: for;
+}
+.item3{
+    background-color: green;
+    grid-area: why;
+}
+.item4{
+    background-color: aqua;
+    grid-area: ask;
+}
+.item5{
+    background-color: orange;
+    grid-area: go;
+}
+.item6{
+    background-color: palevioletred;
+    grid-area: come;
+}
+.item7{
+    background-color: gray;
+    grid-area: way;
+}
+.item8{
+    background-color: maroon;
+    grid-area: lot;
+}
+.item9{
+    background-color: yellow;
+    grid-area: can;
+}
+.item10{
+    background-color: aquamarine;
+    grid-area: foot;
+}

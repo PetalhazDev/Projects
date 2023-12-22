@@ -1,0 +1,146 @@
+:root{
+    --black:#333333;
+    --faint:#fff;
+    --primary:#ddd;
+    --shadow:0 1px 5px rgba(104,104,104,0.8)
+
+}
+html{
+    font-family: arial;
+    color:var(--black);
+}
+body{
+    margin: 30px 50px;
+    background-color: #ccc;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+.btn{
+    background-color: var(--black);
+    color: var(--faint);
+    text-decoration: none;
+    border: 0;
+    padding: 0.6rem 1.3rem;
+    border-top-left-radius: 10px;
+}
+
+nav a{
+    background-color: var(--black);
+    color: var(--faint);
+    border: 0;
+    padding: 0.8rem;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-size: 1.1rem;
+    box-shadow: var(--shadow);
+}
+
+nav a:hover{
+    background-color: var(--black);
+    color: var(--primary);
+}
+
+nav ul{
+    list-style-type: none;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0;
+
+}
+
+img{
+    width: 100%;
+}
+
+.show{
+    background-image: url(flowerimage1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    padding: 3rem;
+    min-height: 400px;
+    box-shadow: var(--shadow);
+    grid-area:show ;
+}
+.show h1{
+    font-size: 3rem;
+    color: var(--faint);
+    margin-bottom: 0;
+
+}
+.show p{
+    font-size: 1.5rem;
+    color: var(--faint);
+    margin-top: 0;
+}
+
+.side-box{
+    background-color: var(--primary);
+    text-align: center;
+    padding: 0.6rem 2rem;
+    box-shadow: var(--shadow);
+
+}
+
+.showcase{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+    "show show side-up"
+    "show show side-bottom"
+    
+    
+}
+
+.box{
+    background-color: var(--primary);
+    text-align: center;
+    box-shadow: var(--shadow);
+    padding: 1.5rem 2rem;
+
+}
+.parent{
+    display: grid;
+    grid-gap: 20px;
+}
+
+.boxes{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+.info{
+    display: grid;
+    background-color: var(--primary);
+    grid-gap: 20px;
+    box-shadow: var(--shadow);
+    padding: 3rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gallery img{
+    box-shadow: var(--shadow);
+
+}
+
+.gallery{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+
+footer{
+    background-color:var(--black) ;
+    color: var(--faint);
+    text-align: center;
+    padding: 1.5rem 2rem;
+}
+
+footer i{
+    color: red;
+}

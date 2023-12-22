@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0px;
+}
+
+
+
+.header{
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 0;
+    margin: 0;
+    
+    
+    
+}
+h1, h3, h4, h5 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+.table{
+    width: 100%;
+    
+    
+    
+    color: white;
+}
+.table-items{
+    text-align: center;
+    border: 2px;
+
+    
+}
+.bot{
+    background-color: black;
+}
+.key{
+    background-color: #008000;
+}
+.go{
+    margin-top: 50px;
+}
+
+.bottom{
+    position: relative;
+}
+
+.cat{
+    position: absolute;
+    bottom:100px;
+    left: 580px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+    nav{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        background-color: aqua;
+        
+        width: 100%;
+        
+
+    }
+
+    ol{
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    ol a{
+        text-decoration: none;
+        background-color: gray;
+        color: white;
+        padding: 10px;
+        border-radius: 15px;
+        font-size: xx-large;
+        text-align: center;
+        border-radius: 50%;
+    }
+
+    img{
+        border-radius: 50%;
+    }
+    /*
+}
+
+ol a{
+    text-decoration: none;
+    display: block;
+    background-color: #333;
+    color: white;
+    font-size: xx-large;
+    padding: 10px;
+    border-radius: 10px;
+}
+ol {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 0;
+    justify-content: center;
+}*/
+
+p{
+    text-indent: 20px;
+}
+
+.mark{
+    border: 2px solid red ;
+    outline: 2px groove green;
+    padding: 10px;
+    margin: 5px;
+    outline-offset: 5px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    color: whitesmoke;
+    border-radius: 5px;
+    width: 70%;
+    margin-top: 20px;
+    box-sizing: border-box;
+    text-shadow: 2px 2px 2px maroon;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-style: normal;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+}
+
+.card{
+    border: 2px solid;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+.items{
+    min-width: 200px;
+    min-height: 400px;
+
+}
+
+.bot1{
+    background-color: green;
+}
+
+.bot{
+    background-color: blueviolet;
+}
+.bot3{
+    background-color: red;
+}
+
+.mat{
+    border-radius: 20px;
+    float: left;
+}
+
+.float{
+    clear: left;
+}

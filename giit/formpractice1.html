@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formpractice1.css">
+</head>
+
+<body>
+    <form action="/action_page.php">
+
+        <p><label for="fname">First name</label><br>
+            <input type="text" name="first name" id="fname" class="head"><br><br>
+            <label for="lname">Last name</label><br>
+            <input type="text" name="last name" id="lname" class="head"><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="text" name="email" id="email" class="head"><br><br>
+            <label for="pword">Password</label><br>
+            <input type="password" name="password" id="pword" class="head"><br><br>
+            <label for="gender">Gender</label><br>
+
+            <input type="radio" name="male" id="male">
+            <label for="male">Male</label><br>
+            <input type="radio" name="female" id="fmale">
+            <label for="fmale">Female</label><br><br>
+            <label for="feedback">Feedback</label><br>
+            <input type="checkbox" name="feedback" id="phone">
+            <label for="phone">Phone</label><br>
+            <input type="checkbox" name="feedback" id="fax">
+            <label for="fax">Fax</label><br><br>
+            <label for="resume">Upload resume</label><br>
+            <input type="file" name="resume" id="resume" multiple><br><br>
+            <label for="search">Search  Google</label><br>
+            <input type="search" name="search" id="search" class="head"><br>
+            <input type="submit" name="submit" value="Submit"><br><br>
+            <label for="phonenumber">Phone number</label><br>
+            <input type="tel" name="phone number" id="phonenumber" class="head"><br><br>
+            <label for="month">Months of the year</label><br>
+            <input type="month" name="month" id="month" class="head"><br><br>
+            <label for="week">Week</label><br>
+            <input type="week" name="week" id="week" class="head"><br><br>
+            <label for="time">Select time</label><br>
+            <input type="time" name="time" id="time" class="head">
+        </p>
+
+        <p>Home Address</p>
+        <textarea name="message" id="homeaddress" cols="30" rows="10"></textarea>
+
+        <p>
+
+            <label for="dateob">Date of Birth</label><br>
+            <input type="date" name="date of birth" id="dateob" class="head"><br><br>
+            <label for="favcolor">Select your favorite color:</label><br>
+            <input type="color" name="color" id="favcolor"><br><br>
+            <label for="number">Number</label><br>
+            <input type="number" name="number" id="number" class="head"><br><br>
+            <label for="pin">Pin</label><br>
+            <input type="text" name="pin" id="pin" size="4" maxlength="4" class="head"><br><br>
+        </p>
+
+        <p>
+
+
+            <fieldset style="width: 99%; height:200px;">
+                <legend>Personal:</legend>
+                <label for="fname">First name</label><br>
+                <input type="text" name="first name" id="finame" class="mike"><br><br>
+                <label for="lname">Last name</label><br>
+                <input type="text" name="last name" id="laname" class="mike"><br><br>
+                <input type="submit" name="submit" value="Submit">
+            </fieldset>
+
+
+
+
+        </p>
+
+
+
+
+
+
+
+
+
+
+        <p>
+            <label for="country">Country</label><br>
+            <select name="country" id="country" value="Country"><br>
+                <option value="nigeria">NIGERIA</option>
+                <option value="ghana">Ghana</option>
+                <option value="germany">Germany</option>
+
+
+
+            </select><br><br>
+
+            <center>
+                <button type="submit" name="submit" value="Submit">Submit</button>
+                <button type="reset" name="reset" value="Reset">Reset</button>
+                <button type="button" name="button" value="Click me">Click me</button>
+                <button type="button" formaction="/action_page.php2" name="button" value="Submit as Admin">Submit as admin</button>
+            </center>
+
+
+
+
+
+        </p>
+
+
+
+        
+
+
+
+
+    </form>
+
+</body>
+
+</html>

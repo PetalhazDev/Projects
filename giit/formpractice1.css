@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: brown;*/
+    background-image: url(image2.jpeg);
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    background-color: blue;
+    width: 70%;
+    padding: 20px;
+    margin: 32px auto;
+    background: linear-gradient(45deg, blue, green, purple, gray);
+}
+
+label {
+    display: inline-block;
+    margin: 8px 0;
+    color: black;
+    text-transform: capitalize;
+}
+
+button {
+    background-color: yellow;
+    border-radius: 15px;
+    border-color: brown;
+    cursor: progress;
+    color: black;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    box-shadow: 3px 3px 3px 3px rgb(197, 132, 149);
+}
+
+.head,
+textarea {
+    width: 100%;
+    padding: 10px 2px;
+    border-radius: 10px;
+}
+
+.mike {
+    width: 99%;
+    padding: 10px 2px;
+    border-radius: 10px;
+}
+
+textarea,
+fieldset {
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: white;
+    color: gray;
+}

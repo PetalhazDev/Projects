@@ -1,0 +1,18 @@
+{
+  "name": "netflix",
+  "version": "1.0.0",
+  "description": "just about node",
+  "main": "amsd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "software",
+    "deigner"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "upper-case": "^2.0.2"
+  }
+}

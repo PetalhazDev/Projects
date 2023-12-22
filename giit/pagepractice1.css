@@ -1,0 +1,43 @@
+body {
+    background-color: brown;
+}
+
+h1 {
+    background-color: blue;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+    height: 50px;
+}
+
+h2 {
+    background-color: green;
+    font-style: normal;
+    font-family: verdana;
+    font-size: 24px;
+    padding: 5px;
+    height: 50px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+p {
+    color: aliceblue;
+}
+
+.p {
+    color: violet;
+}
+
+h3 {
+    background-color: aqua;
+}
+
+.nike {
+    background-color: purple;
+    color: olivedrab;
+}
+
+.ball {
+    color: violet;
+}

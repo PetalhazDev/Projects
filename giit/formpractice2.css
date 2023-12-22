@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+}
+
+form {
+    padding: 20px;
+    width: 70%;
+    background-color: blue;
+    margin: 30px auto;
+    /*remember to put the background */
+    background: linear-gradient();
+    color: ;
+}
+
+label {
+    display: inline-block;
+    margin: 5px 0;
+    color: white;
+    text-transform: capitalize;
+}
+
+.head,
+textarea {
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+#page {
+    text-align: center;
+}
+
+textarea {
+    margin-top: 5px;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border-color: purple;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+button:hover {
+    background-color: green;
+    color: gold;
+}

@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+table{
+    margin-top: 200px;
+
+    
+}
+table,tr, th,td {
+    text-align: center;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+.header{
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+.table{
+    
+    overflow-x: auto;
+    
+}
+
+h1, h3, h4, h5 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+
+}
+
+.card{
+    background-color: black;
+    color: white;
+}
+.key{
+    background-color: green;
+    color: white;
+}
+.love{
+    background-color: black;
+    color: white;
+}
+.mat{
+    background-color: green;
+    color: white;
+}
+.cup{
+    background-color: black;
+    color: white;
+}
+
+
+.come{
+    background-color: green;
+    color: white;
+}
+
+.bark{
+    background-color: black;
+    color:white;
+}
+
+

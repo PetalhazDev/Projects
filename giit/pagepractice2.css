@@ -1,0 +1,50 @@
+body {
+    background-color: orange;
+    background-image: url(ondoimage.jpg);
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-size: contain;
+}
+
+h1,
+h2 {
+    background-color: blue;
+    font-size: 24px;
+    border: 2px solid black;
+    padding: 10px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin: 5px;
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+p {
+    color: blue;
+    background-image: url(edoimage.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+}
+
+.book {
+    color: green;
+}
+
+h3 {
+    background-color: blueviolet;
+    color: aquamarine;
+    padding: 5px;
+    margin: 5px;
+    width: 30%;
+}
+
+table,
+th,
+tr,
+td {
+    background-color: red;
+}

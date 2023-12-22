@@ -1,0 +1,123 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #dddddd;
+    margin-top: 40px;
+}
+
+.container{
+    min-height: 700px;
+    min-width: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas: 
+    "ask ask ask"
+    "king love mat"
+    "king four five"
+    "foot foot foot"
+    ;
+}
+
+.item{
+    text-align: center;
+    color: wheat;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.item--1{
+    background-color: red;
+    grid-area: ask;
+}
+.item--2{
+    background-color: red;
+    grid-area: ask;
+}
+.item--3{
+    background-color: red;
+    grid-area: ask;
+}
+.item--4{
+    background-color: lawngreen;
+    grid-area: king;
+}
+.item--5{
+    background-color: violet;
+    grid-area: love;
+}
+.item--6{
+    background-color: orange;
+    grid-area: mat;
+}
+.item--7{
+    background-color: maroon;
+    grid-area: king;
+}
+.item--8{
+    background-color: grey;
+    grid-area: four;
+}
+.item--9{
+    background-color: blue;
+    grid-area: five;
+}
+.item--10{
+    background-color: yellow;
+    grid-area: foot;}
+.item--11{
+    background-color: purple;
+    grid-area: foot;
+}
+
+.item--12{
+    background-color: grey;
+    grid-area: foot;
+}
+
+
+nav ol{
+    list-style-type: none;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+ol a{
+    text-decoration: none;
+    display: block;
+    background-color: aqua;
+    color: #000;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 35px;
+    text-transform: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid red;
+    text-align: center;
+}
+
+a:hover{
+    background-color: #000;
+    color: aqua;
+    text-decoration: overline;
+}
+@media screen and (min-width:700px){
+    .container{
+        display: block;
+        
+    }
+    body{
+        background-color: aqua;
+    }
+}
+
+
+
+
+
+
+
+
+

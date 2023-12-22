@@ -1,0 +1,16 @@
+.sam{
+    background-color: #024848 !important;
+}
+
+.back{
+    background-color: #024848 !important;
+}
+.ours{
+    background-color: #024848 !important;
+}
+
+@media(max-width:600px){
+    .precious{
+        width: 100% !important;
+    }
+}

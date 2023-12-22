@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ ol a{
+ text-decoration: none;
+ background-color: aqua;
+ color: black;
+ display: block;
+ padding: 15px;
+ border-radius: 10px;
+ font-size: xx-large;
+ border-radius: 2px 2px 2px 2px gray;
+ text-align: center;
+ 
+}
+
+ol{
+list-style-type: none;
+display: grid;
+grid-gap: 20px;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+padding:0;
+justify-content: space-around;
+}
+
+.item1{
+    background-color: red;
+}
+.item2{
+    background-color: blue;
+}
+.item3{
+    background-color: orange;
+}
+.item4{
+    background-color: blanchedalmond;
+}
+.item5{
+    background-color: magenta;
+}
+.item6{
+    background-color: green;
+}
+.item7{
+    background-color: violet;
+}
+.item8{
+    background-color: aquamarine;
+}
+.item9{
+    background-color: yellow;
+}
+
+.item10{
+    background-color: goldenrod;
+}
+
+.item{min-height: 400px;
+text-align: center;
+font-size: 45px;}
+
+.container{
+    display: grid;
+    border: 3px solid red;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: 100px;
+    grid-gap: 20px;
+    
+    
+}
+
+.img-text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50%;
+    margin-top: 20px;
+
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 35px;
+    background-color: blue;
+    color: #000;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: green;
+    color: #fff;
+}
+h1{
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    background-color: gray;
+    margin-top: 30px;
+}
+
+@media(max-width:990px){
+    nav ol{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    body{
+        background-color: magenta;
+    }
+}
+
+@media(max-width:990px){
+    .img-text{
+        grid-template-columns: 1fr 1fr;
+        ;
+
+    }
+}
+nav h3{
+    color: magenta;
+}
